@@ -8,64 +8,64 @@
 </head>
     <body>
         <main>
-            <div class="leftBlock" id="createForm">
+            <div class="createNewUser" id="createForm">
             <header>
-                <h1>Create new User</h1>
+                <h1 class="title1">Create new User</h1>
             </header>
             <form>
                 <p id="firstName">
                     <label>
                         First Name:
-                        <br><input class="formInput" type="text" value="Bruce">
+                        <br><input class="inputFields" type="text" value="Bruce">
                     </label>
                 </p>
                 <p id="lastName">
                     <label>
                         Last Name:
-                        <br><input class="formInput" type="text" value="Wayne">
+                        <br><input class="inputFields" type="text" value="Wayne">
                     </label>
                 </p>
                 <p id="age">
                     <label>
                         Age:
-                        <br><input class="formInput" type="text" value="35">
+                        <br><input class="inputFields" type="text" value="35">
                     </label>
                 </p>
 
                 <p id="city">
                     <label>
                         City:
-                        <br><input class="formInput" type="text" value="Gotham">
+                        <br><input class="inputFields" type="text" value="Gotham">
                     </label>
                 </p>
                 <p id="interests">
                     <label>
                     List of Interests:
-                    <select class="formInput formInput__Select">
+                    <select class="inputSelect">
                         <option>Programming</option>
                         <option>Reading</option>
                         <option>Basketball</option>
                     </select>
                     or
-                    <input type="text" placeholder="Type your own interests" class="interestsInput formInput" value="Reading, Help people">
+                    <input type="text" placeholder="Type your own interests" class="inputFields" value="Reading, Help people">
                     </label>
                 </p>
-                <button type="button" class="createButton" id="createButton">Create</button>
+                <button type="button" class="createBtn" id="createButton">Create</button>
             </form>
             </div>
 
-            <div class="rightBlock" id="usersTable">
+            <div class="listOfUsers" id="usersTable">
             <header>
-                <h1>List of Users</h1>
+                <h1 class="title1">List of Users</h1>
             </header>
             <table width=100%>
                 <thead>
                     <tr>
-                        <th class="userName">User name</th>
-                        <th class="age">Age</th>
-                        <th class="city">City</th>
-                        <th class="interests">Interests</th>
-						<th class="blank"> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <br></th>
+                        <th  width=30%>User name</th>
+                        <th  width=10%>Age</th>
+                        <th  width=20%>City</th>
+                        <th  width=40%>Interests</th>
+						<th  width=10%> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <br></th>
                     </tr>
                 </thead>
                 <tbody>

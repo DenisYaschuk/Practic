@@ -1,9 +1,9 @@
-h1{
+.title1{
     color:#018786;
     text-align: center;
 }
 
-.formInput {
+.inputFields {
     width: 55%;
 	height: 20px;
 	background: white;
@@ -13,24 +13,7 @@ h1{
 	font-weight: 700;
 }
 
-.formInput__Text{
-    width: 50%;
-    min-width: fit-content;
-
-    display: block;
-}
-
-.interestsInput {
-    width:35%;
-	height: 25px;
-	background: white;
-	border: 1px solid #018786;
-	border-radius: 8px;
-	color: #018786;
-	font-weight: 700;
-}
-
-.formInput__Select {
+.inputSelect {
 	width: 19%;		
 	height: 25px;
 	background: white;
@@ -53,26 +36,6 @@ td {
 	text-align: left;
     padding: 15px 0;
 }
-
-.userName {
-    width: 30%;
-}
-.age {
-    width: 10%;
-}
-.city {
-    width: 20%;
-}
-.interests {
-    width: 40%;
-}
-.blank{
-	width:10%
-}
-.delete {
-    width: content-box;
-}
-
 td button {
     border-color: transparent;
     background-color: transparent;
@@ -85,7 +48,7 @@ td button:hover {
     background-color: lightgrey;
 }
 
-.createButton {
+.createBtn{
 			margin-right: 30px;
 			float:right;
 			width:33%;
@@ -97,7 +60,7 @@ td button:hover {
 			font-weight: 700;
 }
 
-.leftBlock {
+.createNewUser {
     border-right: thin solid black;
     border-collapse: collapse;
 
@@ -109,7 +72,7 @@ td button:hover {
     padding: 0 2.5%;
 }
 
-.rightBlock {
+.listOfUsers {
     width: 45%;
 
     position: absolute;
