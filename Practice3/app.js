@@ -1,11 +1,7 @@
-
 window.onload = function () {
 	UserAdd(getData());
     document.getElementById("createBtn").onclick = function () {
         UserAdd(getData());
-
-
-	
     };
     function additional(string) {
         var chars = [];
@@ -24,7 +20,7 @@ window.onload = function () {
     }
     function getData() {
         var interests = document.querySelector("#interests label .inputInterests").value;
-        interests = interests !== "" ? interests : document.querySelector("#interests label .formInput__Select").value;
+        interests = interests !== "" ? interests : document.querySelector("#interests label .inputSelect").value;
 
         return {
             userName: document.querySelector("#firstName label input").value + " " + document.querySelector("#lastName label input").value,
