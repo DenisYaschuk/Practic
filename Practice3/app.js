@@ -1,7 +1,7 @@
 
 window.onload = function () {
 	UserAdd(getData());
-    document.getElementById("createButton").onclick = function () {
+    document.getElementById("createBtn").onclick = function () {
         UserAdd(getData());
 
 
@@ -23,7 +23,7 @@ window.onload = function () {
             }).reduce((first, second) => first + second, "");
     }
     function getData() {
-        var interests = document.querySelector("#interests label .interestsInput").value;
+        var interests = document.querySelector("#interests label .inputInterests").value;
         interests = interests !== "" ? interests : document.querySelector("#interests label .formInput__Select").value;
 
         return {
@@ -47,7 +47,7 @@ window.onload = function () {
             "<button onclick=\"deleteUser(event)\">x</button>\n" +
             "</td>\n";
 
-        document.querySelector("#usersTable table tbody").appendChild(item);
+        document.querySelector("#listOfUsers table tbody").appendChild(item);
     };
 };
 function deleteUser(event) {

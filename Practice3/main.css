@@ -13,6 +13,16 @@
 	font-weight: 700;
 }
 
+.inputInterests {
+    width:35%;
+	height: 25px;
+	background: white;
+	border: 1px solid #018786;
+	border-radius: 8px;
+	color: #018786;
+	font-weight: 700;
+}
+
 .inputSelect {
 	width: 19%;		
 	height: 25px;
