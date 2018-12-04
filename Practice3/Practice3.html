@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script async src="app.js"></script>
+    <link type="text/css" rel="stylesheet" href="main.css">
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+    <body>
+        <main>
+            <div class="leftBlock" id="createForm">
+            <header>
+                <h1>Create new User</h1>
+            </header>
+            <form>
+                <p id="firstName">
+                    <label>
+                        First Name:
+                        <br><input class="formInput" type="text" value="Bruce">
+                    </label>
+                </p>
+                <p id="lastName">
+                    <label>
+                        Last Name:
+                        <br><input class="formInput" type="text" value="Wayne">
+                    </label>
+                </p>
+                <p id="age">
+                    <label>
+                        Age:
+                        <br><input class="formInput" type="text" value="35">
+                    </label>
+                </p>
+
+                <p id="city">
+                    <label>
+                        City:
+                        <br><input class="formInput" type="text" value="Gotham">
+                    </label>
+                </p>
+                <p id="interests">
+                    <label>
+                    List of Interests:
+                    <select class="formInput formInput__Select">
+                        <option>Programming</option>
+                        <option>Reading</option>
+                        <option>Basketball</option>
+                    </select>
+                    or
+                    <input type="text" placeholder="Type your own interests" class="interestsInput formInput" value="Reading, Help people">
+                    </label>
+                </p>
+                <button type="button" class="createButton" id="createButton">Create</button>
+            </form>
+            </div>
+
+            <div class="rightBlock" id="usersTable">
+            <header>
+                <h1>List of Users</h1>
+            </header>
+            <table width=100%>
+                <thead>
+                    <tr>
+                        <th class="userName">User name</th>
+                        <th class="age">Age</th>
+                        <th class="city">City</th>
+                        <th class="interests">Interests</th>
+						<th class="blank"> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <br></th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+            </div>
+        </main>
+    </body>
+</html>

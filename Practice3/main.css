@@ -1,0 +1,119 @@
+h1{
+    color:#018786;
+    text-align: center;
+}
+
+.formInput {
+    width: 55%;
+	height: 20px;
+	background: white;
+	border: 1px solid #018786;
+	border-radius: 8px;
+	color: #018786;
+	font-weight: 700;
+}
+
+.formInput__Text{
+    width: 50%;
+    min-width: fit-content;
+
+    display: block;
+}
+
+.interestsInput {
+    width:35%;
+	height: 25px;
+	background: white;
+	border: 1px solid #018786;
+	border-radius: 8px;
+	color: #018786;
+	font-weight: 700;
+}
+
+.formInput__Select {
+	width: 19%;		
+	height: 25px;
+	background: white;
+	border: 1px solid #018786;
+	border-radius: 8px;
+	color: #018786;
+	font-weight: 700;
+}
+
+th {
+	text-align: left;
+	height: 40px;
+	background-color: #F2F2F2;
+	text-size: 20px;
+    padding: 5px 0;
+}
+
+td {
+	height: 40px;
+	text-align: left;
+    padding: 15px 0;
+}
+
+.userName {
+    width: 30%;
+}
+.age {
+    width: 10%;
+}
+.city {
+    width: 20%;
+}
+.interests {
+    width: 40%;
+}
+.blank{
+	width:10%
+}
+.delete {
+    width: content-box;
+}
+
+td button {
+    border-color: transparent;
+    background-color: transparent;
+
+    font-weight: bold;
+
+}
+
+td button:hover {
+    background-color: lightgrey;
+}
+
+.createButton {
+			margin-right: 30px;
+			float:right;
+			width:33%;
+			height:30px;
+			background: white;
+			border: 2px solid #018786;
+			border-radius: 20px;
+			color: #018786;
+			font-weight: 700;
+}
+
+.leftBlock {
+    border-right: thin solid black;
+    border-collapse: collapse;
+
+    width: 45%;
+
+    position: absolute;
+    left: 0;
+
+    padding: 0 2.5%;
+}
+
+.rightBlock {
+    width: 45%;
+
+    position: absolute;
+    right: 0;
+
+    padding: 0 2.5%;
+}
