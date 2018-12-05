@@ -19,15 +19,15 @@ window.onload = function () {
             }).reduce((first, second) => first + second, "");
     }
     function getData() {
-        var interests = document.querySelector("#interests label .inputInterests").value;
-        interests = interests !== "" ? interests : document.querySelector("#interests label .inputSelect").value;
+        var interests = document.getElementById("selectInterests").value;
+        interests = interests !== "" ? interests : document.getElementById("inputInterests").value;
 
         return {
-            userName: document.querySelector("#firstName label input").value + " " + document.querySelector("#lastName label input").value,
+            userName: document.getElementById("firstName").value + " " + document.getElementById("lastName").value,
 
-            age: document.querySelector("#age label input").value,
+            age: document.getElementById("age").value,
 
-            city: document.querySelector("#city label input").value,
+            city: document.getElementById("city").value,
 
             interests
         };
