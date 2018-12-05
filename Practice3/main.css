@@ -1,10 +1,31 @@
+.createNewUser {
+    border-right: thin solid #b2b2b2;
+    border-collapse: collapse;
+
+    width: 45%;
+
+    position: absolute;
+    left: 0;
+
+    padding: 0 2.5%;
+}
+
+.listOfUsers {
+    width: 45%;
+
+    position: absolute;
+    right: 0;
+
+    padding: 0 2.5%;
+}
+
 .title1{
     color:#018786;
     text-align: center;
 }
 
 .inputFields {
-    width: 55%;
+    width: 60%;
 	height: 20px;
 	background: white;
 	border: 1px solid #018786;
@@ -33,30 +54,7 @@
 	font-weight: 700;
 }
 
-th {
-	text-align: left;
-	height: 40px;
-	background-color: #F2F2F2;
-	text-size: 20px;
-    padding: 5px 0;
-}
 
-td {
-	height: 40px;
-	text-align: left;
-    padding: 15px 0;
-}
-td button {
-    border-color: transparent;
-    background-color: transparent;
-
-    font-weight: bold;
-
-}
-
-td button:hover {
-    background-color: lightgrey;
-}
 
 .createBtn{
 			margin-right: 30px;
@@ -70,23 +68,27 @@ td button:hover {
 			font-weight: 700;
 }
 
-.createNewUser {
-    border-right: thin solid black;
-    border-collapse: collapse;
-
-    width: 45%;
-
-    position: absolute;
-    left: 0;
-
-    padding: 0 2.5%;
+th {
+	text-align: left;
+	height: 30px;
+	background-color: #F2F2F2;
+	text-size: 20px;
+    padding: 5px 0;
 }
 
-.listOfUsers {
-    width: 45%;
+td {
+	height: 20px;
+	text-align: left;
+    padding: 15px 0;
+}
+td button {
+    border-color: transparent;
+    background-color: transparent;
 
-    position: absolute;
-    right: 0;
+    font-weight: bold;
 
-    padding: 0 2.5%;
+}
+
+td button:hover {
+    background-color: lightgrey;
 }
