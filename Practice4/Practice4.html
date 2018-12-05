@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script async src="app.js"></script>
+    <link type="text/css" rel="stylesheet" href="main.css">
+    <meta charset="UTF-8">
+    <title>HTML Practice lesson 4</title>
+</head>
+    <body>
+        <main>
+            <div class="createNewUser" id="createNewUser">
+            <header>
+                <h1 class="title1">Create new User</h1>
+            </header>
+            <form>
+                <p>
+                        First Name:
+                        <br><input id="firstName" class="inputFields" type="text" value="Bruce">
+                    
+                </p>
+                <p>
+                    <label>
+                        Last Name:
+					</label>
+                        <br><input id="lastName" class="inputFields" type="text" value="Wayne">
+                    
+				</p>
+                <p>
+                        Age:
+                        <br><input id="age" class="inputFields" type="text" value="35">
+                </p>
+                <p>
+                        City:
+                        <br><input id="city" class="inputFields" type="text" value="Gotham">
+                    
+                </p>
+                <p>
+					List of Interests:
+                    <select id="inputInterests" class="selectInterests">
+                        <option>Programming</option>
+                        <option>Reading</option>
+                        <option>Basketball</option>
+                    </select>
+                    or
+                    <input id="selectInterests"type="text" placeholder="Type your own interests" class="inputInterests" value="Reading, Help people">
+                </p>
+                <button type="button" class="createBtn" id="createBtn">Create</button>
+            </form>
+            </div>
+
+            <div class="listOfUsers" id="listOfUsers">
+            <header>
+                <h1 class="title1">List of Users</h1>
+            </header>
+            <table width=100%>
+                <thead>
+                    <tr>
+                        <th  id="Username" width=30%>User name</th>
+                        <th  id="Age" width=10%>Age</th>
+                        <th  id="City" width=20%>City</th>
+                        <th  id="Interests" width=40%>Interests</th>
+						<th  id="delete" width=10%> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <br></th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+            </div>
+        </main>
+    </body>
+</html>
