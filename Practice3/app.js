@@ -3,7 +3,7 @@ window.onload = function () {
     document.getElementById("createBtn").onclick = function () {
         UserAdd(getData());
     };
-    function additional(string) {
+    function write(string) {
         var chars = [];
         for (var i = 0; i < string.length; i++)
             chars.push(string.charAt(i));
