@@ -3,6 +3,7 @@ window.onload = function () {
     document.getElementById("createBtn").onclick = function () {
         UserAdd(getData());
     };
+}
     function write(string) {
         var chars = [];
         for (var i = 0; i < string.length; i++)
@@ -35,17 +36,16 @@ window.onload = function () {
     function UserAdd(user) {
         var item = document.createElement("tr");
         item.innerHTML =
-            "<td class=\"userName\">" + additional(user.userName) + "</td>\n" +
-            "<td class=\"age\">" + additional(user.age) + "</td>\n" +
-            "<td class=\"city\">" + additional(user.city) + "</td>\n" +
-            "<td class=\"interests\">" + additional(user.interests) + "</td>\n" +
+            "<td class=\"userName\">" + write(user.userName) + "</td>\n" +
+            "<td class=\"age\">" + write(user.age) + "</td>\n" +
+            "<td class=\"city\">" + write(user.city) + "</td>\n" +
+            "<td class=\"interests\">" + write(user.interests) + "</td>\n" +
             "<td class=\"delete\">" +
             "<button onclick=\"deleteUser(event)\">x</button>\n" +
             "</td>\n";
 
         document.querySelector("#listOfUsers table tbody").appendChild(item);
-    };
-};
+    }
 function deleteUser(event) {
     event.target.parentElement.parentElement.remove();
 }
